@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Quizcategory" >
+
+    <Button
+        android:id="@+id/education"
+        android:layout_width="124dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="160dp"
+        android:background="#79FFC3"
+        android:shadowColor="#FFFFFF"
+        android:text="@string/education"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/sports"
+        android:layout_width="124dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="40dp"
+        android:background="#79FFC3"
+        android:shadowColor="#FFFFFF"
+        android:text="@string/sports"
+        app:layout_constraintEnd_toEndOf="@+id/education"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/education"
+        app:layout_constraintTop_toBottomOf="@+id/education" />
+
+    <Button
+        android:id="@+id/tech"
+        android:layout_width="124dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="40dp"
+        android:background="#79FFC3"
+        android:shadowColor="#FFFFFF"
+        android:text="@string/technology"
+        app:layout_constraintEnd_toEndOf="@+id/sports"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/sports"
+        app:layout_constraintTop_toBottomOf="@+id/sports" />
+
+    <Button
+        android:id="@+id/phone"
+        android:layout_width="124dp"
+        android:layout_height="72dp"
+        android:layout_marginTop="40dp"
+        android:background="#79FFC3"
+        android:shadowColor="#FFFFFF"
+        android:text="@string/phone"
+        app:layout_constraintEnd_toEndOf="@+id/tech"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tech"
+        app:layout_constraintTop_toBottomOf="@+id/tech" />
+</androidx.constraintlayout.widget.ConstraintLayout>

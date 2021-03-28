@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.quizapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.QuizApp">
+        <activity android:name=".result2"></activity>
+        <activity
+            android:name=".QuizAnswer"
+            android:label="@string/title_activity_quiz_answer"
+            android:theme="@style/Theme.QuizApp.NoActionBar" />
+        <activity android:name=".Profile" />
+        <activity android:name=".reward" />
+        <activity
+            android:name=".splashScreenActivity"
+            android:theme="@style/SplashScreenTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Quizquestion4" />
+        <activity android:name=".Quizquestion3" />
+        <activity android:name=".Quizquestion2" />
+        <activity android:name=".Quizcategory" />
+        <activity android:name=".ResultActivity" />
+        <activity android:name=".Quizquestion1" />
+        <activity android:name=".entry" />
+        <activity android:name=".Registration" />
+        <activity android:name=".LoginActivity" />
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
